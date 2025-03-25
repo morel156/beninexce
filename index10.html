@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eia </title>
+    <script src="./app1.js" defer  ></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+</head>
+<body class="bg-primary">
+    <header class="border-bottom  bg-white" style="position:static;">
+        <h3 style="position:relative;float: left; padding-top:20px ; font-size: 0.7em;margin-left: 10px;" class="text-primary d-lg-block justify-content-start bg-white">
+            <p style="font-family: serif; font-style: italic; padding-left: 20px;margin: 0px;">Ecole d'été sur </p>
+            L'INTELLIGENCE ARTIFICIELLE</h3>
+        <nav class="navbar navbar-expand-lg bg-white border-bottom border-white  ">
+    
+            
+            <div class="container justify-content-end me-3" style="position: relative;">
+                <button class="navbar-toggler  " data-bs-toggle="collapse" data-bs-target="#menu" >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end " id="menu" style="position: relative; ">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="index.html" class="nav-link " style="color: blue;">ACCUEIL</a></li>
+                       
+                        <li class="nav-item nav-item-dropdown mb-2"><a href="#" class="nav-link dropdown-toggle"  data-bs-toggle="dropdown" style="color: blue;">EDITIONS</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="index1.html" class="dropdown-item">EEIA 2024</a></li>
+                                <li><a href="index2.html" class="dropdown-item">EEIA 2023</a></li>
+                                <li><a href="index3.html" class="dropdown-item">EEIA 2022</a></li>
+                                <li><a href="index4.html" class="dropdown-item">EEIA 2021</a></li>
+                            </ul>
+                       </li>
+                       
+                    </ul>
+                </div>
+            </div>
+    
+        </nav>
+    </header>
+    <div class=" m-3 border rounded-2 shadow-lg p-2 bg-white">
+        <p style="font-style: italic;font-family: 'Times New Roman', Times, serif;" class="text-primary text-center mb-0 p-0">Ecole d'été sur </p>
+        <h1 style="font-weight: bolder;" class="text-center text-primary mt-0 p-0">L'INTELLIGENCE <span style="letter-spacing: 5px;">ARTIFICIELLE</span></h1>
+        <h3 style="text-decoration: underline;" class="mt-4 text-center">Page d'inscription (Senior)</h3>
+        <p style="font-style: italic;opacity: 0.6;" class="text-center">(Tous les champs sont obligatoires)</p>
+        <p style="opacity: 0.6;" class="mt-3 text-center">Vous etes déjà inscrit(e) ? <a href="index8.html" style="opacity:1;" class="text-primary">Cliquez-ici</a> pour vous connecter.</p>
+        
+        <form action="index11.html" class="row g-3" id="pipo">
+            <p class="m-0" style="font-weight: 600;">Civilité</p>
+            <label class="form-label ms-2  mt-0" for="monsieur" >
+                <input  type="radio" name="chk" id="monsieur" checked >Monsieur
+            </label> 
+            <label  class="form-label ms-2 mt-0" for="madame" >
+                <input  type="radio" name="chk" id="madame"/>Madame
+            </label>
+            <div>
+                <label style="font-weight: 600;"  for="nj" class="form-label">
+                    Nom
+               </label>
+                   <input  class="form-control" type="text" name="nome" id="name" placeholder="Entrez votre nom ici.">
+                   <p class="text-danger" id="1"></p>
+            </div>
+            <div>
+                <label style="font-weight: 600;"  for="pre" class="form-label">
+                    Prénom
+                </label>
+                <input  class="form-control" type="text" name="firstname" id="prenom" placeholder="Entrez votre prenom ici."/>
+                <p class="text-danger" id="2"></p>
+            </div>
+            <div>
+                <label  style="font-weight: 600;" for="tel" class="form-label">
+                    Téléphone <span style="opacity: 0.6;">(avec l'indicatif international)</span>
+                </label>
+                <input  class="form-control" type="text" name="celphone" id="tel" placeholder="Entrez votre téléphone ici."/>
+                <span style="opacity: 0.6;">Saisissez votre numéro au format international (ex: +229XXXXXXXXXX)</span>
+                <p class="text-danger" id="3"></p>
+            </div>
+            <div>
+                <label  style="font-weight: 600;" for="mail" class="form-label">
+                    Email
+                </label>
+                <input  class="form-control" type="email" name="Email" id="mail" placeholder="Entrez votre email ici."/>
+                <p class="text-danger" id="4"></p>
+            </div>
+            <div>
+                <label  style="font-weight: 600;" for="mt" class="form-label">
+                    Mot de passe
+                </label>
+                <input  class="form-control" type="password" name="passewd" id="mt" placeholder="Entrez votre mot de passe ici."/>
+                <p class="text-danger" id="5"></p>
+            </div>
+            <div>
+                <label  style="font-weight: 600;" for="mtp" class="form-label">
+                    Confirmer votre mot de passe
+                </label>
+                <input  class="form-control" type="password" name="passewdp" id="mtp" placeholder="Re-saisissez le mot de passe"/>
+                <p class="text-danger" id="6"></p>
+            </div>
+            <div>
+                <label  style="font-weight: 600;" for="ph" class="form-label">
+                    Entrez une photo de vous <span style="font-style: italic;opacity: 0.6;">(visage à découvert)</span>
+                </label>
+                <input type="file" name="image" id="phi" class="form-control" accept="image/*">
+                <p style="opacity: 0.6;">(facultatif)</p>
+            </div>
+            <div>
+                <label for="check">
+                    <input type="checkbox" name="checkboss" id="check"> J'ai lu et accepté <a href="#">les conditions d'utilisation</a>
+                    <p class="text-danger" id="7"></p>
+                </label>
+            </div>
+            <div>
+                <input  type="submit" value="S'inscire" class=" form-control col-12" style="background-color: blue;" id="submi">
+            </div>
+                
+        </form>
+        <h2 class="text-center text-primary mt-3">En patenariat avec </h2>
+        <ul>
+            <li>Fondation Vallet</li>
+            <li>Benin Excellence</li>
+            <li> PNUD</li>
+        </ul>
+        <p class="text-center mb-0"><a href="index8.html" >Aller sur la page de connexion</a></p>
+        <p class="text-center mt-0"><a href="#">Les conditions d'utilisations</a></p>
+
+    </div>
+    <footer style="background-color: midnightblue;" class="text-center ">
+        <div class="text-center bg-primary">
+            <p style="font-family: serif; font-style: italic;" class="m-0">Ecole d'été sur </p>
+            <h3 style="font-weight: bold; font-size: 1em;" class="m-0">L'INTELLIGENCE ARTIFICIELLE</h3>
+            <p class="mt-3">☎️+229 91 13 87 87<p>
+            
+        </div>
+     
+    
+        <p class="p-3 mb-0 " style="color: white;">copyright @  Bénin Excellence </p>
+        <p class="mb-0 p-3 mt-0 " style="color: white;"> By <a href="#"> BSM groupe</a></p>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

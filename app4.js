@@ -1,3 +1,4 @@
+/* Code javascript qui permet de sécuriser la page de connexion après la création du compte , qui peut refuser tes identifiants si tu n'as jamais créer de comptes*/
 const feuill= localStorage.getItem('feuille')
 const lemot2= localStorage.getItem('motdepasse')
 console.log(feuill)
@@ -26,3 +27,4 @@ document.getElementById('start').addEventListener('submit',(e)=>{
         document.getElementById('para2').append(newpa2)
     }
 })
+

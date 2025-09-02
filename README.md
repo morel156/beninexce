@@ -7,4 +7,4 @@ Les fichiers avec extention jpg sont des photos utilisées lors de la création 
 
 
 #Lien pour visiter ce site en ligne
-https://morel156.github.io/beninexce/
+https://morel156.github.io/beninexcellence/

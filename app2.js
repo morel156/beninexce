@@ -1,3 +1,4 @@
+/*  Code javascript qui permet de gerer la page d'accuiel après la connexion sur le site en intégrant votre nom et information personnelle fourni lors de l'inscription*/
 const recuperer= document.getElementById('papa')
 document.addEventListener('DOMContentLoaded',()=>{
     const feuill= localStorage.getItem('feuille')
@@ -13,4 +14,5 @@ document.addEventListener('DOMContentLoaded',()=>{
     const lai= localStorage.getItem('lait')
     document.getElementById('papo').append(feuill," ",lai)
 })
+
 

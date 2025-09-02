@@ -1,3 +1,5 @@
+/*Code javascript qui permet de gérer le formulaire de d'inscription, le stockage en localStorage de quelque informations qui participent au dynamisme de la page
+ici j'ai utilisé des fonctions nactives et cotés navigateur de javascript pour atteindre mon objectif*/
 document.getElementById('pipo').addEventListener('submit',(e)=>{
     const form = e.currentTarget
     const data= new FormData(form)
@@ -110,3 +112,4 @@ document.addEventListener('DOMContentLoaded',()=>{
     
 
 })
+

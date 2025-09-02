@@ -1,3 +1,4 @@
+/* Code javascript qui permet de modifier les informations personnelles une fois son profil créer*/
 const papa=document.getElementById('name')
 const toto= document.getElementById('prenom')
 papa.addEventListener('input',()=>{
@@ -34,5 +35,6 @@ document.addEventListener('DOMContentLoaded',()=>{
         numinput.value=recuperer4
     }
    
+
 
 })
